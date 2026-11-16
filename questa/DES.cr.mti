@@ -1,4 +1,11 @@
-D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/f_round.sv {1 {vlog -work work -vopt -sv -stats=none D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/f_round.sv
+D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/tb_controller.sv {1 {vlog -work work -vopt -sv -stats=none D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/tb_controller.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module tb_controller
+
+Top level modules:
+	tb_controller
+
+} {} {}} D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/f_round.sv {1 {vlog -work work -vopt -sv -stats=none D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/f_round.sv
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 -- Compiling module f_round
 -- Importing package des_pkg
