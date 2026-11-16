@@ -32,9 +32,9 @@ module data_path(
 
     // Select round key
     always_comb begin
-    if (mode_in == 1'b0)    //Encryption
+    if (mode_in == 1'b0)    //Encryption : K0 -> K15
         sub_key = gen_keys[round_index*48 +: 48];
-    else                    //Decryption
+    else                    //Decryption : K15 -> K0
         sub_key = gen_keys[767 - round_index*48 -: 48];
     end
 

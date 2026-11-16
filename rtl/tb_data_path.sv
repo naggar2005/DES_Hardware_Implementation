@@ -17,6 +17,11 @@ module tb_data_path();
         Key             : 64'h133457799BBCDFF1
         Mode            : 0(Encryption)
         Expected output : 64'h85E813540F0AB405
+
+        ciphertext      : 64'h85E813540F0AB405
+        Key             : 64'h133457799BBCDFF1
+        Mode            : 1(Decryption)
+        Expected output : 64'h0123456789ABCDEF
     */
 
 
@@ -55,7 +60,10 @@ module tb_data_path();
         repeat(2) @(negedge clk);
         arstn = 1'b1;
 
-        // Load data and key
+        /*
+            Encryption test
+        */
+        // Load data and key , Encryption
         @(negedge clk);
         data_in = 64'h0123456789ABCDEF;
         key     = 64'h133457799BBCDFF1;
@@ -79,9 +87,44 @@ module tb_data_path();
 
         @(negedge clk);
         if(data_out === 64'h85E813540F0AB405)
-            $display("[tb_data_path] , test passed succesfully");
+            $display("[tb_data_path] , Encryption test passed succesfully");
         else
-            $display("[tb_data_path] , test failed data_out = %h",data_out);
+            $display("[tb_data_path] , Encryption test failed data_out = %h",data_out);
+
+
+
+        /*
+            Decryption test
+        */
+        // Load data and key , Decryption
+        mode = '0;
+        @(negedge clk);
+        data_in = 64'h85E813540F0AB405;
+        key     = 64'h133457799BBCDFF1;
+        mode    = 1'b1;
+        
+        load = 1'b1;
+
+        @(negedge clk);
+        load = 1'b0;
+        round_en = 1'b1;
+        for(i = 0; i < 16; i++) begin
+            round_index = i;
+            @(negedge clk);
+        end
+        
+        round_en = 1'b0;
+        round_index = 'b0;
+        finalize = 1'b1;
+        @(negedge clk);
+        finalize = 1'b0;
+
+        @(negedge clk);
+        if(data_out === 64'h0123456789ABCDEF)
+            $display("[tb_data_path] , Decryption test passed succesfully");
+        else
+            $display("[tb_data_path] , Decryption test failed data_out = %h",data_out);
+
 
         $finish;
     end
