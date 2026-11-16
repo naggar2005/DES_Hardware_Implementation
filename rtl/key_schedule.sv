@@ -1,4 +1,4 @@
-module des_key_schedule (
+module key_schedule (
     input  logic [63:0]  key,
     output logic [767:0] round_keys
 );

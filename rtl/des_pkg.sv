@@ -200,6 +200,76 @@ package des_pkg;
     endfunction
 
 
+    function automatic logic [63:0] initial_permutation(input logic [63:0] data);
+
+        initial_permutation = {
+            data[6],  data[14], data[22], data[30],
+            data[38], data[46], data[54], data[62],
+
+            data[4],  data[12], data[20], data[28],
+            data[36], data[44], data[52], data[60],
+
+            data[2],  data[10], data[18], data[26],
+            data[34], data[42], data[50], data[58],
+
+            data[0],  data[8],  data[16], data[24],
+            data[32], data[40], data[48], data[56],
+
+            data[7],  data[15], data[23], data[31],
+            data[39], data[47], data[55], data[63],
+
+            data[5],  data[13], data[21], data[29],
+            data[37], data[45], data[53], data[61],
+
+            data[3],  data[11], data[19], data[27],
+            data[35], data[43], data[51], data[59],
+
+            data[1],  data[9],  data[17], data[25],
+            data[33], data[41], data[49], data[57]
+        };
+
+    endfunction
+
+    function automatic logic [63:0] final_permutation(input logic [63:0] data);
+
+        final_permutation = {
+            data[24], data[56], data[16], data[48],
+            data[8],  data[40], data[0],  data[32],
+
+            data[25], data[57], data[17], data[49],
+            data[9],  data[41], data[1],  data[33],
+
+            data[26], data[58], data[18], data[50],
+            data[10], data[42], data[2],  data[34],
+
+            data[27], data[59], data[19], data[51],
+            data[11], data[43], data[3],  data[35],
+
+            data[28], data[60], data[20], data[52],
+            data[12], data[44], data[4],  data[36],
+
+            data[29], data[61], data[21], data[53],
+            data[13], data[45], data[5],  data[37],
+
+            data[30], data[62], data[22], data[54],
+            data[14], data[46], data[6],  data[38],
+
+            data[31], data[63], data[23], data[55],
+            data[15], data[47], data[7],  data[39]
+        };
+
+    endfunction
+
+    function automatic logic [63:0] swap(input logic [63:0] data);
+
+        swap = {
+            data[31:0],     // Right half becomes Left
+            data[63:32]     // Left half becomes Right
+        };
+
+    endfunction
+
+
 
 
 endpackage

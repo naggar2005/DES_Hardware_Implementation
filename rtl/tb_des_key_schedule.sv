@@ -5,7 +5,7 @@ module tb_des_key_schedule();
     logic [767:0] round_keys;
 
     // DUT
-    des_key_schedule dut (
+    key_schedule dut (
         .key(key),
         .round_keys(round_keys)
     );
