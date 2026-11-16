@@ -43,4 +43,11 @@ QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 Top level modules:
 	tb_f_round
 
+} {} {}} D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/tb_data_path.sv {1 {vlog -work work -vopt -sv -stats=none D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/tb_data_path.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module tb_data_path
+
+Top level modules:
+	tb_data_path
+
 } {} {}}
