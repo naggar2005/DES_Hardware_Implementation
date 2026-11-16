@@ -41,6 +41,7 @@ R3
 R4
 n@_opt1
 R5
+R1
 T_opt2
 !s110 1794787494
 VI4UVj1FZQEXe8[7NA@bEP0
@@ -54,23 +55,23 @@ R5
 R1
 vcontroller
 Z6 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z7 !s110 1794852486
+Z7 !s110 1794853669
 !i10b 1
 !s100 6B77Af>c?T][01F=Wc]M:3
 IjP8eL5di:4dD`lzP@c3ca0
 S1
 Z8 dD:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/questa
-w1794852476
+w1794852559
 8D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/controller.sv
 FD:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/controller.sv
-!i122 104
+!i122 113
 L0 1 146
 Z9 VDg1SIo80bB@j0V0VzS_@n1
 Z10 OL;L;2021.1;73
 r1
 !s85 0
 31
-Z11 !s108 1794852486.000000
+Z11 !s108 1794853669.000000
 !s107 D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/controller.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/controller.sv|
 !i113 0
@@ -88,7 +89,7 @@ R8
 w1794845432
 8D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/data_path.sv
 FD:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/data_path.sv
-!i122 102
+!i122 111
 L0 1 70
 R9
 R10
@@ -137,7 +138,7 @@ R8
 w1794840599
 8D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/des_pkg.sv
 FD:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/des_pkg.sv
-!i122 97
+!i122 106
 L0 1 0
 Ve=TmenoEmD@ZV1`^1GmSU0
 R10
@@ -147,6 +148,30 @@ r1
 R11
 !s107 D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/des_pkg.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/des_pkg.sv|
+!i113 0
+R12
+R4
+vdes_top
+R6
+!s110 1794853700
+!i10b 1
+!s100 h0306b_f9hoNVRB2:05mP0
+IZ51:e=28VXFVfdVb[zW2i0
+S1
+R8
+w1794853695
+8D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/des_top.sv
+FD:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/des_top.sv
+!i122 115
+L0 1 64
+R9
+R10
+r1
+!s85 0
+31
+!s108 1794853700.000000
+!s107 D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/des_top.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/des_top.sv|
 !i113 0
 R12
 R4
@@ -162,7 +187,7 @@ R8
 w1794786208
 8D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/f_round.sv
 FD:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/f_round.sv
-!i122 98
+!i122 107
 L0 1 43
 R9
 R10
@@ -187,7 +212,7 @@ R8
 w1794839584
 R14
 R15
-!i122 100
+!i122 109
 R16
 R9
 R10
@@ -208,10 +233,10 @@ R7
 Ihc080M7BKKTd4QFWzTAb83
 S1
 R8
-w1794852172
+w1794852560
 8D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/tb_controller.sv
 FD:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/tb_controller.sv
-!i122 105
+!i122 114
 L0 1 191
 R9
 R10
@@ -235,7 +260,7 @@ R8
 w1794846225
 8D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/tb_data_path.sv
 FD:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/tb_data_path.sv
-!i122 103
+!i122 112
 L0 1 131
 R9
 R10
@@ -259,7 +284,7 @@ R8
 w1794839596
 8D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/tb_des_key_schedule.sv
 FD:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/tb_des_key_schedule.sv
-!i122 101
+!i122 110
 L0 2 51
 R9
 R10
@@ -283,7 +308,7 @@ R8
 w1794780989
 8D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/tb_f_round.sv
 FD:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/tb_f_round.sv
-!i122 99
+!i122 108
 L0 1 54
 R9
 R10
