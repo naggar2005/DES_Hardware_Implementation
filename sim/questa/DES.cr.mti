@@ -1,0 +1,74 @@
+E:/DES_Hardware_Implementation/rtl/des_pkg.sv {1 {vlog -work work -vopt -sv -stats=none E:/DES_Hardware_Implementation/rtl/des_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package des_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/tb_des_key_schedule.sv {1 {vlog -work work -vopt -sv -stats=none D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/tb_des_key_schedule.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module tb_des_key_schedule
+
+Top level modules:
+	tb_des_key_schedule
+
+} {} {}} D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/key_schedule.sv {1 {vlog -work work -vopt -sv -stats=none D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/key_schedule.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module key_schedule
+-- Importing package des_pkg
+
+Top level modules:
+	key_schedule
+
+} {} {}} D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/des_pkg.sv {1 {vlog -work work -vopt -sv -stats=none D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/des_pkg.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package des_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/f_round.sv {1 {vlog -work work -vopt -sv -stats=none D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/f_round.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module f_round
+-- Importing package des_pkg
+
+Top level modules:
+	f_round
+
+} {} {}} D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/tb_controller.sv {1 {vlog -work work -vopt -sv -stats=none D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/tb_controller.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module tb_controller
+
+Top level modules:
+	tb_controller
+
+} {} {}} D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/tb_f_round.sv {1 {vlog -work work -vopt -sv -stats=none D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/tb_f_round.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module tb_f_round
+
+Top level modules:
+	tb_f_round
+
+} {} {}} D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/data_path.sv {1 {vlog -work work -vopt -sv -stats=none D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/data_path.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module data_path
+-- Importing package des_pkg
+
+Top level modules:
+	data_path
+
+} {} {}} E:/DES_Hardware_Implementation/tb/tb_des_top.sv {1 {vlog -work work -vopt -sv -stats=none E:/DES_Hardware_Implementation/tb/tb_des_top.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module tb_des_top
+
+Top level modules:
+	tb_des_top
+
+} {} {}} D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/tb_data_path.sv {1 {vlog -work work -vopt -sv -stats=none D:/ahmed/CSE/Fall26/security/DES_project/DES/DES_Hardware_Implementation/rtl/tb_data_path.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module tb_data_path
+
+Top level modules:
+	tb_data_path
+
+} {} {}}

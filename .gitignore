@@ -1,0 +1,20 @@
+# QuestaSim / ModelSim artifacts
+work/
+sim/work/
+sim/questa/work/
+*.wlf
+transcript
+*.vstf
+*.log
+*.bak
+*.orig
+*.mpf_new
+modelsim.ini
+sim/modelsim.ini
+
+# Simulation output files (generated during testbench runs)
+sim/output.txt
+sim/decrypted_output.txt
+output.txt
+decrypted_output.txt
+
